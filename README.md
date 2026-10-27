@@ -136,11 +136,12 @@ require_preferred_lang=yes   ; 只显示中文
 
 | | |
 |---|---|
-| 源码 | `cli/javsubs_cli.py`（纯标准库，装了 Python 可直接跑） |
-| 打包 | `cli/build.bat`（PyInstaller onefile，产物约 9.2 MB） |
-| 成品 | Releases 页下载，或自行 `cli\build.bat` |
+| 直接下载 | **[javsubs-cli.exe v1.0.0](https://github.com/Bolov01/mpv-javsubs/releases/download/v1.0.0/javsubs-cli.exe)**（9.2 MB，免安装免环境） |
+| 全部版本 | [Releases](https://github.com/Bolov01/mpv-javsubs/releases) |
+| 源码 | [`cli/javsubs_cli.py`](cli/javsubs_cli.py)（纯标准库，装了 Python 可直接跑） |
+| 自行打包 | `cli\build.bat`（PyInstaller onefile，Windows 上执行） |
 
-> exe 不进仓库（9 MB 二进制会拖累 clone），需要时从 Releases 取或本地打包。
+> exe 不进仓库（9 MB 二进制会拖累 clone），走 Releases 分发。
 
 ### 输入参数
 
